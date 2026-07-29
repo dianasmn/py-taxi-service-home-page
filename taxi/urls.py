@@ -1,7 +1,5 @@
-from django.contrib import admin
-from django.urls import path, include
+from django.urls import path
 
-import taxi
 from taxi.views import index
 
 urlpatterns = [
